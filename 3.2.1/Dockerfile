@@ -37,5 +37,5 @@ ENV PATH /opt/gatling/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbi
 ENV GATLING_HOME /opt/gatling
 
 ENTRYPOINT  ["gatling.sh"]
-CMD   ["-s","computerdatabase.BasicSimulation"]
+CMD   ["-s","RecordedSimulation"]
 
